@@ -5,8 +5,8 @@ class Thingy
   {
     myX = myY = 0;
   }
-  int getX(){return myX;}
-  int getY(){return myY;}
-  void setX(int n){myX = n;}
-  void setY(int n){myY = n;}
+  public int getX(){return myX;}
+  public int getY(){return myY;}
+  public void setX(int n){myX = n;}
+  public void setY(int n){myY = n;}
 }
